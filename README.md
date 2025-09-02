@@ -16,9 +16,9 @@ This project generates realistic VTU-style synthetic student performance data, t
   - `student_360.csv` – Student profile table
 
 ## Project Structure
-student-performance-dashboard/ 
-│
-├── vtu_pipeline_final_fixed.py # Main Python pipeline
-├── requirements.txt # Python dependencies 
-├── README.md # Project documentation 
-└── data/ # (Optional) Sample CSV outputs
+- student-performance-dashboard/ 
+- │
+- ├── vtu_pipeline_final_fixed.py # Main Python pipeline
+- ├── requirements.txt # Python dependencies 
+- ├── README.md # Project documentation 
+- └── data/ # (Optional) Sample CSV outputs
