@@ -15,10 +15,11 @@ This project generates realistic VTU-style student performance data, trains a ma
   - `risk_by_dept_course.csv` – Risk explorer matrix
   - `student_360.csv` – Student profile table
 
-## Project Structure
-- student-performance-dashboard/ 
-- │
-- ├── vtu_pipeline_final_fixed.py # Main Python pipeline
-- ├── requirements.txt # Python dependencies 
-- ├── README.md # Project documentation 
-- └── data/ # (Optional) Sample CSV outputs
+## Usage
+Run the pipeline:
+final.ipynb
+This will generate raw data, model outputs, and Power BI-ready CSVs in the project folder.
+## Power BI Integration
+- Open Power BI Desktop.
+- Load the four aggregate CSVs (summary_metrics.csv, risk_trend.csv, risk_by_dept_course.csv, student_360.csv).
+- Build visuals
